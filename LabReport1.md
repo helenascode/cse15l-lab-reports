@@ -1,8 +1,12 @@
-![Image](cd.png)
-The working directory was home initially, and then it was lecture1. The third command does not work on a file. It's an error because the cd command only works on directories and Hello.java is a file.
+![Image](cd1.png)
+![Image](cd2.png)
+![Image](cd3.png)
 
-![Image](ls.png)
-The working directory was lecture1. The ls command lists out all the folders and files present if executed on its own without any arguments. When using ls on a file, the command will show the file itself. 
+![Image](ls1.png)
+![Image](ls2.png)
+![Image](ls3.png)
 
-![Image](cat.png)
-The working directory was lecture1. The cat command did not display anything. 
+![Image](cat1.png)
+![Image](cat2.png)
+![Image](cat3.png)
+
