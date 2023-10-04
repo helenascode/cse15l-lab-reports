@@ -20,7 +20,10 @@ Helena Phamova - **CSE 15L Lab Report 1**
 ---
 
 ![Image](cd3.png)
-> This command outputs an error as Hello.java is a file, not a directory. In other words, cd only works with 'folders' that are so-called directories.
+
+> The terminal recognizes the fact that Hello.java is not a directory.
+
+> The command outputs an error as Hello.java is a file, not a directory. In other words, cd only works with 'folders' that are so-called directories.
 
 > Working directory: still lecture1
 
@@ -28,8 +31,18 @@ Helena Phamova - **CSE 15L Lab Report 1**
 
 ![Image](ls1.png)
 
+> This command lists out all the contents inside the lecture1 directory. But besides that, ls on its own without any arguments will always list out all the contents that is present in the current working directory.
+
+> Working directory: lecture1
+
+> The output is not an error as the contents inside lecture1 have been shown.  
+
 ---
+
 ![Image](ls2.png)
+
+>
+
 ---
 ![Image](ls3.png)
 ---
