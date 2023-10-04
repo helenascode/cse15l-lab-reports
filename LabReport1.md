@@ -6,10 +6,15 @@
 ---
 
 ![Image](ls1.png)
+---
 ![Image](ls2.png)
+---
 ![Image](ls3.png)
+---
 
 ![Image](cat1.png)
+---
 ![Image](cat2.png)
+---
 ![Image](cat3.png)
 
