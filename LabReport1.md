@@ -41,15 +41,49 @@ Helena Phamova - **CSE 15L Lab Report 1**
 
 ![Image](ls2.png)
 
->
+> This command is trying to list all the contents inside lecture1.
+
+> Working directory: lecture1
+
+> The output is an error message. Since the working directory is lecture1, the ls command with lecture1 as the argument throws an error because the command is having trouble accessing the directory. 
 
 ---
+
 ![Image](ls3.png)
+
+> This command...
+
+> Working directory:
+
+> The output is..
+
 ---
 
 ![Image](cat1.png)
+
+> This command...
+
+> Working directory:
+
+> The output is..
+
 ---
+
 ![Image](cat2.png)
+
+> This command...
+
+> Working directory:
+
+> The output is..
+
 ---
+
 ![Image](cat3.png)
+
+> This command...
+
+> Working directory:
+
+> The output is..
 
