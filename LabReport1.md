@@ -51,31 +51,31 @@ Helena Phamova - **CSE 15L Lab Report 1**
 
 ![Image](ls3.png)
 
-> This command...
+> This command is supposed to list any files/folders in the given path which in this case is the file itself.
 
-> Working directory:
+> Working directory: lecture1
 
-> The output is..
+> The output is not an error message.
 
 ---
 
 ![Image](cat1.png)
 
-> This command...
+> This command stands for concatenate and it is supposed to print contents in two or more files in one go.
 
-> Working directory:
+> Working directory: lecture1
 
-> The output is..
+> The output is nothing as no argument was given. Therefore, the command could not print the files that were meant to be printed.
 
 ---
 
 ![Image](cat2.png)
 
-> This command...
+> The command recognizes that lecture1 is a directory but the command is supposed to take in files as its arguments.
 
-> Working directory:
+> Working directory: Home
 
-> The output is..
+> Therefore the output is an error message since it does not know how to execute this command on a directory.
 
 ---
 
@@ -83,7 +83,7 @@ Helena Phamova - **CSE 15L Lab Report 1**
 
 > This command...
 
-> Working directory:
+> Working directory: Home
 
-> The output is..
+> The output is an error message, stating
 
