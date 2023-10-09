@@ -39,7 +39,7 @@ Helena Phamova - **CSE 15L Lab Report 1**
 
 ---
 
-![Image](ls2.png)
+![Image](lss2.png)
 
 > This command is trying to list all the contents inside lecture1.
 
@@ -79,7 +79,7 @@ Helena Phamova - **CSE 15L Lab Report 1**
 
 ---
 
-![Image](cat3.png)
+![Image](catt3.png)
 
 > This command...
 
