@@ -43,9 +43,9 @@ Helena Phamova - **CSE 15L Lab Report 1**
 
 > This command is trying to list all the contents inside lecture1.
 
-> Working directory: lecture1
+> Working directory: home
 
-> The output is an error message. Since the working directory is lecture1, the ls command with lecture1 as the argument throws an error because the command is having trouble accessing the directory. 
+> The output is the list of all files and folders in this directory.
 
 ---
 
@@ -81,9 +81,9 @@ Helena Phamova - **CSE 15L Lab Report 1**
 
 ![Image](catt3.png)
 
-> This command...
+> This command prints out contents in the files that are given as an argument to the command.
 
 > Working directory: Home
 
-> The output is an error message, stating
+> The output is everything that is stored in the Hello.java file.
 
