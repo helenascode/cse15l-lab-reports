@@ -7,6 +7,76 @@ Hello this is my second lab report for CSE 15L!
 
 **PART 1**
 
+This is my code for `StringServer`
+
+```
+import java.io.IOException;
+import java.net.URI;
+import java.util.*;
+
+class Handler implements URLHandler {
+    List<String> words = new ArrayList<>();
+    String ret = "";
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            ret = "";
+            for(String s : words){
+                ret += s;
+                ret += "\n";
+            }
+            return ret;
+        }
+        else if(url.getPath().contains("/add")){
+            System.out.println("Path: " + url.getPath());
+            String[] parameters = url.getQuery().split("=");
+            if(parameters[0].equals("s")){
+                ret = "";
+                words.add(parameters[1]);
+                for(String s : words){
+                    ret += s;
+                    ret += "\n";
+                }
+    
+                return ret;
+            }
+            else{
+                return "404 Not Found";
+            }
+        }
+        else if(url.getPath().equals("/clear")){
+            ret = "";
+            words.removeAll(words);
+            return "Words cleared.";
+        }
+        else{
+            return "404 Not Found";
+        }
+    }
+}
+
+class StringServer{
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
+
+Screenshots using /add-message
+
+![Image](sc1.png)
+
+![Image](sc2.png)
+
+
+---
+
 
 **PART 2**
 
