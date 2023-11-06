@@ -2,9 +2,6 @@ Helena Phamova - **CSE 15L Lab Report 2**
 
 ---
 
-Hello this is my second lab report for CSE 15L!
-
-
 **PART 1**
 
 This is my code for `StringServer`
@@ -16,37 +13,37 @@ import java.util.*;
 
 class Handler implements URLHandler {
     List<String> words = new ArrayList<>();
-    String ret = "";
+    String retain = "";
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            ret = "";
+            retain = "";
             for(String s : words){
-                ret += s;
-                ret += "\n";
+                retain += s;
+                retain += "\n";
             }
-            return ret;
+            return retain;
         }
         else if(url.getPath().contains("/add")){
             System.out.println("Path: " + url.getPath());
             String[] parameters = url.getQuery().split("=");
             if(parameters[0].equals("s")){
-                ret = "";
+                retain = "";
                 words.add(parameters[1]);
                 for(String s : words){
-                    ret += s;
-                    ret += "\n";
+                    retain += s;
+                    retain += "\n";
                 }
     
-                return ret;
+                return retain;
             }
             else{
                 return "404 Not Found";
             }
         }
         else if(url.getPath().equals("/clear")){
-            ret = "";
+            retain = "";
             words.removeAll(words);
-            return "Words cleared.";
+            return "Array all clear";
         }
         else{
             return "404 Not Found";
@@ -74,12 +71,20 @@ Screenshots using /add-message
 
 ![Image](sc2.png)
 
+In these screenshots, the method handleRequest is being called with the relevant argument of /add-messages, and the value of the relevant field can be any string.
+The values of the relevant fields of the class change as I modify the URL to display a different message. This process entails the method getting called multiple times and every time the string gets stored and retained in the array list called 'words' through the string variable 'retain'.
+The values in the array list change as different messages get entered and the messages get logged by storing the previous value, then using the line break to store the newest value.
 
 ---
 
-
 **PART 2**
 
+![Image](sc3.png)
+![Image](sc4.png)
+![Image](sc5.png)
+![Image](sc6.png)
+
+---
 
 **PART 3**
 
