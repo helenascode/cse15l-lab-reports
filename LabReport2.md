@@ -80,8 +80,14 @@ The values in the array list change as different messages get entered and the me
 **PART 2**
 
 ![Image](sc3.png)
+
+
 ![Image](sc4.png)
+
+
 ![Image](sc5.png)
+
+
 ![Image](sc6.png)
 
 ---
