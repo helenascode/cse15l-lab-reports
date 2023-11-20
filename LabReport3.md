@@ -85,19 +85,43 @@ The command that I chose to research is ``FIND``
 
 1. ``find . -type f -name "*.txt"`` [searching by file type]
 
+![Image](find1.png)
+![Image](find2.png)
+
+This command is most useful for the user to filter out specific file types.
+
 2. ``find . -type f -size +1M`` [search by file size]
+
+![Image](find3.png)
+![Image](find4.png)
+
+This command can help find out which files take up a lot of storage and aids the user with storage management.
 
 3. ``find . -type f -empty`` [search for empty files or directories]
 
-4. ``find . -type d`` [search for directories only]
+![Image](find5.png)
+![Image](find6.png)
 
+This command helps with finding out any empty files or directories that might be redundant.
 
+4. ``find . -type d`` [search for directories/files only]
 
+![Image](find7.png)
+![Image](find8.png)
+
+This command can be useful to find out all the files or directories that are in the repository that help with project management.
 
 
 **WORKS CITED**
 
+ChatGPT 
 
+Prompts entered: 
+``find 4 interesting command-line options or alternate ways to use the command 'find'``
+``can you come up with other 4 ways``
+``other 4 ones please``
+
+I chose the ones I liked the most and began experimenting with the commands.
 
 
 
