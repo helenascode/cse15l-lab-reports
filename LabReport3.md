@@ -119,7 +119,9 @@ ChatGPT
 
 Prompts entered: 
 ``find 4 interesting command-line options or alternate ways to use the command 'find'``
+
 ``can you come up with other 4 ways``
+
 ``other 4 ones please``
 
 I chose the ones I liked the most and began experimenting with the commands.
