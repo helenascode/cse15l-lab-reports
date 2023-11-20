@@ -111,6 +111,7 @@ This command helps with finding out any empty files or directories that might be
 
 This command can be useful to find out all the files or directories that are in the repository that help with project management.
 
+---
 
 **WORKS CITED**
 
