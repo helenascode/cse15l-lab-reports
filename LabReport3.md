@@ -118,6 +118,7 @@ This command can be useful to find out all the files or directories that are in 
 ChatGPT 
 
 Prompts entered: 
+
 ``find 4 interesting command-line options or alternate ways to use the command 'find'``
 
 ``can you come up with other 4 ways``
