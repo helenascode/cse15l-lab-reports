@@ -81,7 +81,22 @@ the beginning but fails to reverse the other half.
 
 **PART 2 - RESEARCHING COMMANDS**
 
-The command that I chose to research is ``less``
+The command that I chose to research is ``FIND``
+
+1. ``find . -type f -name "*.txt"`` [searching by file type]
+
+2. ``find . -type f -size +1M`` [search by file size]
+
+3. ``find . -type f -empty`` [search for empty files or directories]
+
+4. ``find . -type d`` [search for directories only]
+
+
+
+
+
+**WORKS CITED**
+
 
 
 
