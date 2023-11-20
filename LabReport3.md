@@ -70,6 +70,13 @@ After:
   }
 ```
 
+The issue:
+```
+The bug essentially results in a half-reversed array because the
+code moves the index numbers of the second half of the array to
+the beginning but fails to reverse the other half.
+```
+
 ---
 
 **PART 2 - RESEARCHING COMMANDS**
