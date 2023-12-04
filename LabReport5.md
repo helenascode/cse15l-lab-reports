@@ -6,6 +6,21 @@ Helena Phamova - **CSE 15L Lab Report 5**
 
 Debugging scenario, design it like an edstem conversation with screenshots
 
+```
+**A buggy method - please help!**
+
+Hi everyone! I'm currently working on a method that seems to have some bugs but I can't seem to figure out what it is. I would really appreciate it if anyone could help me out and point me towards the right direction. Currently struggling to manage a java file and a bash script, everytime I run the bash script, it says that the system cannot find the path of data/input.txt, which in this case, I believe I wrote out the path correctly. This is what I have:
+
+![Image](db1.png)
+
+![Image](db2.png)
+```
+
+```
+Hi Melanie, 
+```
+
+
 ---
 
 **PART 2**
