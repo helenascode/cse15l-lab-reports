@@ -26,7 +26,9 @@ you are definitely on the right track as to knowing what the bug is about. The e
 
 @MelanieTheCoder
 
-Thank you, @TAforCSE15L ! 
+Thank you, @TAforCSE15L ! You were completely right. I realized that since the Main.java file is in the 'src' directory, I needed to give it a path begins from the home directory that goes down to input.txt, which is located in a different directory. This highlights the importance of providing absolute paths when trying to retrieve or utilize a specific file within a coding project so prevent any confusion. 
+
+![Image](db3.png)
 
 ---
 
