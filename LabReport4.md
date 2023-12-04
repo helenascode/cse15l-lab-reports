@@ -5,10 +5,17 @@ Helena Phamova - **CSE 15L Lab Report 4**
 Forking Lab 7
 
 ```
+Go to the link and click on the 'fork' button
+```
+
+```
 https://github.com/ucsd-cse15l-s23/lab7
 ```
 
+
 SSH URL
+
+After done forking, click on '<> code' button where you select 'SSH' clone URL:
 
 ```
 git@github.com:helenascode/lab7.git
